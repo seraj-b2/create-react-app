@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    name: 'Build (${{ matrix.os }}, Node ${{ matrix.node }})'
+    name: 'Build (${{ matrix.os }}, Node ${{ matrix.node }})'    
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
